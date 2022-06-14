@@ -11,21 +11,14 @@ export default {
       data: 'value',
     };
   },
-  computed: {
-    name() {
-      return this.data;
-    },
-  },
   props: {
+    //example prop with as much info as possible
     seasons: {
       type: String,
       default: 'winter',
       required: true,
       validator: function (value) {
         return ['winter', 'spring', 'summer', 'autumn'].indexOf(value) !== -1;
-      },
-      watch: {
-        name(newValue, oldValue) {},
       },
     },
   },
