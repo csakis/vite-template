@@ -10,7 +10,7 @@
           <Image
             width="150"
             alt="Vue logo"
-            src="../src/assets/logo.png"
+            src="/src/assets/logo.png"
           ></Image>
           <SampleComponent />
           <div class="m-3">
