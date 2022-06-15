@@ -13,6 +13,7 @@
     "primeicons": "^5.0.0",
     "primevue": "^3.13.1",
     "vue": "^3.2.25",
+    "vue-router": "4",
     "workbox-build": "^6.4.0",
     "workbox-window": "^6.4.0"
   },
