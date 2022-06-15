@@ -12,8 +12,8 @@
       switchTheme() {
         this.store.theme = this.store.theme === 'light' ? 'dark' : 'light';
         const linkElement = document.getElementById('theme-link');
-        const newTheme = `src/assets/themes/${this.store.theme}/theme.css`
-        linkElement.setAttribute('href', newTheme);
+        const newThemeUrl = `src/assets/themes/${this.store.theme}/theme.css`
+        linkElement.setAttribute('href', newThemeUrl);
       }
     }
 
